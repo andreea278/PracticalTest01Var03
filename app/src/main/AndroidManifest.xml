@@ -21,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PracticalTest01Var03SecondaryActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ro.pub.cs.systems.eim.practicaltest01var03.intent.action.PracticalTest01Var03SecondaryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".PracticalTest01Var03Service"
+            android:exported="false" />
     </application>
 
 </manifest>

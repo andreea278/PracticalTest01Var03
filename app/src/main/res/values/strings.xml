@@ -3,4 +3,7 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="navigate_to_activity">NAVIGATE TO SECONDARY ACTIVITY</string>
+    <string name="navigate_to_activity_button">NAVIGATE</string>
+    <string name="correct">CORRECT</string>
+    <string name="incorrect">INCORRECT</string>
 </resources>

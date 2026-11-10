@@ -12,7 +12,8 @@
         android:id="@+id/first_number_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:saveEnabled="false"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,12 +41,14 @@
         android:id="@+id/second_number_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:saveEnabled="false"/>
 
     <TextView
         android:id="@+id/result_text_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:saveEnabled="false"/>
 
     <Button
         android:id="@+id/navigate_to_activity_button"
